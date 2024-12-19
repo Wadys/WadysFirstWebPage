@@ -4,26 +4,78 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wady's Page!</title>
+    <style> 
+        body{
+            background-color:#5c5656;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+
+        header{
+            background: black;
+            /* margin: 20px ; */
+            /* padding: 20px 40px 10px 50px; */
+            padding: 20px;
+        }
+
+        section{
+            background: white;
+            color: grey;
+            display: flex;
+            padding: 20px;
+            flex-direction: row ;
+        }
+        
+        div{
+            background: red;
+            width: 100px; 
+            margin: auto;
+        }
+        
+        ul{
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+        }
+        li{
+            display: inline-block;
+            margin: 0 20px 0 0;
+        }
+
+        footer{
+            background: black;
+            padding: 10px 20px;
+
+        }
+    </style>
 </head>
 <body>
-    <h1>My Page!</h1>
-    <h2>My Subtitle</h2>
-    <h6>Small text</h6>
-    <p>Hi I'm a <b>Strong1</b> parragraph example</p>
-    <p>Hi I'm a <strong>Strong2</strong> parragraph example</p>
-    <p>Hi I'm a <em>Itaic</em>parragraph example</p>
-    <p><button>Hi I'm a <button></button> example</button></p>
-    <p>Hi I'm a parragraph example</p>
-    <li>I'm a list</li>
-    <li>I'm a list</li>
-    <ul>
-        <li>I'm a list</li>
-        <li>I'm a list</li>
-    </ul>
-    <ol>
-        <li>I'm a list</li>
-        <li>I'm a list</li>
-    </ol>
-    Hello World this is my first website!!!
+    <header>
+        <nav>
+           <ul>
+            <li>Home</li>
+            <li>Locations</li>
+            <li>Contacts</li>
+           </ul> 
+        </nav>
+        <h1>
+            Title
+        </h1>
+    </header>
+    <section>
+        Triple-Section
+        <div>a</div>
+        <div>b</div>
+        <div>c</div>
+    </section>
+    <section>
+        lower-section
+    </section>
+    <footer>
+        footer
+        Hello World this is my first website!!!
+    </footer>  
 </body>
 </html>
