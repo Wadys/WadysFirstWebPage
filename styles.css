@@ -5,7 +5,7 @@ body{
     margin: 0;
     padding: 0;
 }
-
+/* HEADER */
 header{
     background-color: black;
     background-image: url("Images/fondo-header.JPG");
@@ -36,21 +36,6 @@ header .logo a  {
     width: 125px;
     
 }
-
-section{
-    background: white;
-    color: grey;
-    display: flex;
-    flex-direction: row ;
-    padding: 20px;    
-}
-
-div{
-    background: red;
-    width: 100px; 
-    margin: auto;
-}
-
 ul{
     margin: 0;
     padding: 0;
@@ -60,9 +45,40 @@ li{
     display: inline-block;
     margin: 0 20px 0 0;
 }
+/* FEATURES */
+.features{
+    background: white;
+    color: grey;
+    display: flex;
+    flex-direction: row ;
+    padding: 20px;    
+}
 
+.features figure{
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+    width: 200px;
+}
+
+.features figure img{
+    border: 1px solid white;
+    border-radius: 50%;
+    box-shadow: grey 0 0 10px;
+    width: 200px;
+}
+
+div{
+    background: red;
+    width: 100px; 
+    margin: auto;
+}
+/* FOOTER */
 footer{
     background: black;
-    padding: 10px 20px;
+    color: grey;
+    font-size: 12px;
+    padding: 20px 20px;
+    text-align: center;
 
 }
